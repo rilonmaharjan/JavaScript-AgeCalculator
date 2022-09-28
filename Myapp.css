@@ -1,0 +1,43 @@
+body{
+	padding: 0;
+	font-family: 'KoHo', sans-serif;
+	background-color: #aed7e8;
+}
+#head{
+	padding: 30px 0px 30px 0px;
+	height: 120px;
+	width: auto;
+}
+#head h1{
+	padding: 0px 0px 20px 48px;
+	font-size: 40px;
+	font-weight: 500;
+}
+#head h2{
+	padding: 0px 0px 10px 48px;
+	font-size: 20px;
+	font-weight: 400;
+	position: fixed;
+}
+#tail{
+	padding: 50px 0px 30px 0px;
+	height: 620px;
+	width: auto;
+}
+.alp{
+	height: auto;
+	width: 100%;
+	padding: 30px 0px 60px 0px;
+	text-align: center;
+}
+.alp span{
+	color: #b5869b;
+}
+.calc{
+	margin: 0px 0px 0px 288px;
+	padding: 20px 20px 20px 20px;
+	width: 50%;
+	border-radius: 6px;
+	border: 2px solid #d5d9de;
+	background-color: #d5d9de;
+}

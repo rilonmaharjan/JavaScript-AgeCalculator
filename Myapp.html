@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="Myapp.css">
+	<title>Application</title>
+</head>
+<body>
+	<section id="head">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-11">
+					<h1>Hello,
+					<span id="greet">Good Morning</span></h1>
+				</div>
+				<div class="col-md-1">
+					<h2 id="time">12 : 10 : 23</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="tail">
+		<div class="container">
+			<div class="row">
+				<div class="alp">
+					<h1>Age <span>Calculator</span></h1>
+				</div>
+				<div class="calc">
+					<form>
+						<div class="mb-3">
+							<input type="text" class="form-control" id="date" placeholder="Date">
+						  </div>
+						  <select id="month" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+							<option selected>Open this select menu to insert month</option>
+							<option value="jan">January</option>
+							<option value="feb">February</option>
+							<option value="mar">March</option>
+							<option value="apr">April</option>
+							<option value="may">May</option>
+							<option value="jun">June</option>
+							<option value="jul">July</option>
+							<option value="aug">August</option>
+							<option value="sep">September</option>
+							<option value="oct">October</option>
+							<option value="nov">November</option>
+							<option value="dec">December</option>
+						  </select>
+						  <div class="mb-3">
+							<input type="text" class="form-control" id="year" placeholder="Year">
+						  </div>
+						  <button type="submit" id="bttn" onclick="butn()" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+		    </div>
+	    </div>
+    </section>		
+
+	<script src="Myapp.js"></script>
+</body>
+</html>
+
+<i class="fab fa-twitter"></i>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
